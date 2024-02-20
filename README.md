@@ -6,7 +6,7 @@ Numerous video games and physical simulation systems involve the planning and co
 
 This work compiles and runs on Linux and Mac OS X. It was tested on Ubuntu Linux 10.04 and Mac OS X 10.7.2.
 
-To compile on Linux, it is necessary to install the libraries for development in X11 and OpenGL (GL, GLU, GLUT). On Ubuntu Linux, simply install the "freeglut3-dev" package, which contains all these dependencies. It is also necessary to install the C++ compiler, available in the "g++" package. Such packages can be easily installed using the following commands:
+To compile on Linux, it is necessary to install the libraries for development in X11 and OpenGL (GL, GLU, GLUT). On Ubuntu Linux, simply install the `freeglut3-dev` package, which contains all these dependencies. It is also necessary to install the C++ compiler, available in the "g++" package. Such packages can be easily installed using the following commands:
 
 ```
 # apt-get install freeglut3-dev
