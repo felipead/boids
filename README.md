@@ -1,4 +1,4 @@
-# Computer Graphics - Boids Simulation
+# Computer Graphics - Boids 3D Simulation
 
 Numerous video games and physical simulation systems involve the planning and coordination of group movement. In this work, we developed a program that models a flock of virtual birds ("boids") navigating in a three-dimensional space.
 
