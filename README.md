@@ -37,11 +37,13 @@ Each boid is an independent entity, which has a position in space and an associa
 
 The above set of constraints defines the nature of movement at a local level, but does not define the collective movement of the group. To do so, the program must implement a special boid that represents the objective, that is, the group, as a whole, tends to fly in the direction of this objective-boid. Both the boids and the objective-boid must be initialized with rich values, and the velocity vector of the objective-boid must be controlled by the user through keyboard (or mouse) commands. Remember to adjust the direction and magnitude of the velocity vector of each boid, in order to maintain the group.
 
+[a boid](https://github.com/felipead/boids/blob/main/doc/boid.png)
+
 1. There must be a reasonably large defined world, with a “floor” that can be modeled by a horizontal plane. In the center of this world there must be a cone-shaped tower.
 2. There must be at least 3 distinct viewing modes: the first with the eye positioned at the top of the tower in the center of the world, the second behind the flock, at a fixed distance, and the third perpendicular to the vector that represents the flock's speed , and parallel to the plane of the floor. In all three modes, the viewing direction is from the eye to the center of the flock (midpoint of each boid's positions) with the normal pointing perpendicular to the ground plane.
 3. The world must be illuminated, being able to use the standard OpenGL global model.
 4. Each boid must be drawn as a three-dimensional polyhedron. It could be something
-simple, like the 5 pyramids on the side: :
+simple, like the 5 pyramids displayed above.
 5. The number of boids must be able to vary according to user commands, for example
 For example, pressing the “+” key should create a new boid randomly (near
 group) and the “-” key randomly eliminates a boid from the group.
